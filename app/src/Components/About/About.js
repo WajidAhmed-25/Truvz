@@ -389,7 +389,7 @@ const About = () => {
                             </div>
                             <div className="text">"Our trip was absolutely a perfect, thanks this travel agency! They took care of every detail, from to accommodations, and even suggested incredible experiences"</div>
                             <div className="author">
-                                <div className="image"><img src="assets/images/testimonials/author.jpg" alt="Author"/></div>
+                                <div className="image"><img src="https://png.pngtree.com/png-clipart/20220909/original/pngtree-women-cartoon-avatar-in-flat-style-png-image_8515458.png" alt="Author"/></div>
                                 <div className="content">
                                     <h5>Randall V. Vasquez</h5>
                                     <span>Graphics Designer</span>
