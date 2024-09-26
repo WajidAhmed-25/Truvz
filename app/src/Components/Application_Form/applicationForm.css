@@ -1,6 +1,7 @@
 .application-container {
     width: 55%;
     margin: 0 auto;
+
   }
   
   .header {
@@ -46,6 +47,33 @@
 
 }
 
+
+
+@media (min-width: 240px) and (max-width: 440px) {
+
+ .res_data{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+ }
+ .btn_arrange{
+
+width: 45% !important;
+}
+.s_c{
+  font-size: 25px !important; 
+  text-decoration: underline;
+}
+.c_n{
+  width: 70% !important;
+}
+.small_add_job{
+  width: 40% !important;
+}
+.world{
+  gap: 10px;
+}
+}
 
 
 
@@ -156,8 +184,8 @@
 .btn_arrange{
     display: flex;
    justify-content: space-between;
-   row-gap: 10px;
-   width: 30%;
+   column-gap: 30px;
+   width: 20%;
 }
 
 
@@ -193,6 +221,23 @@
     width: 50%;
   }
 
+  .flex_btn_design{
+    background-color: #f7921e; 
+    font-weight: 600;
+    border-radius: 0.375rem;
+    color: #232c27 !important;
+    text-align: center;
+    border: none;
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+  }
+
+  .flex_btn_design:hover{
+    cursor: pointer;
+    background-color: #232c27 !important; 
+    color:#f7921e !important;
+    border: 2px solid #f7921e !important;
+  }
+
   .add_job{
 
     /* padding: 0.5rem 0.5rem; */
@@ -225,6 +270,8 @@
     color: #8b0e27 !important;
     border: 2px solid #8b0e27;
   }
+
+  
 
   .add_job:hover{
     background-color: #232c27;
@@ -277,6 +324,16 @@
     padding: 10px;
   }
 
+  .org_border{
+
+    border: 2px solid #f7921e99 !important;
+
+  }
+
+  .only_orange{
+    background-color: #f7921e !important;
+  }
+  
 
   .btn_style{
     padding: 0.5rem 1rem;
@@ -305,6 +362,14 @@
     color: #f7921e !important;
   }
 
+  .change_bg{
+    margin-top: 20px;
+    background-color: #232c27 !important;  
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 4px 6px rgba(170, 89, 8, 0.87);
+  }
+
   .btn_style:hover{
     background-color: #232c27; 
     border: 2px solid #f7921e;
@@ -312,17 +377,42 @@
     color: #f7921e !important;
   }
 
+  
+
   label{
     color: #f7921e; 
     font-weight: 500;
     margin-top: 10px;
   }
 
+  .work1{
+    color: #232c27 !important;
+  }
+
+  .selected_btn{
+    border:2px solid #f7921e;
+    background-color: #232c27 !important;
+    border-radius: 10px;
+    color: #f7921e !important;
+  }
+
+  .last{
+    display: flex;
+    justify-content: space-between;
+    
+  }
+
   .select_small{
     width:20%;
     margin-left: 20px;
+    text-align: center;
   }
 
+  .select_small1{
+    width:25%;
+    margin-left: 20px;
+    text-align: center;
+  }
   input[type="date"] { 
     
     color: #f7921e;
@@ -336,6 +426,8 @@
   }
 
   
+  
+
  textarea { 
     
     color: #f7921e;

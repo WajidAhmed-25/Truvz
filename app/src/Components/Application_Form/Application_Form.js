@@ -11,7 +11,7 @@ const PersonalInformation = ({ personalInfo, setPersonalInfo }) => {
     setPersonalInfo({ ...personalInfo, [name]: value });
   };
   const fetchLocation = () => {
-    if ("geolocation" in navigator) {
+    if ("geolocation" in navigator) { 
       navigator.geolocation.getCurrentPosition(
         async (position) => {
           const { latitude, longitude } = position.coords;

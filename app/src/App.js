@@ -11,6 +11,8 @@ import ContactUs from './Components/Contact_Us/ContactUs';
 import Blogs from './Components/Blogs/Blogs';
 import Blogs_Data from './Components/Blogs/Blogs_Data';
 import Travel_Reg_Form from './Components/Application_Form/Application_Form';
+import Travel_Reg_Form1 from './Components/Application_Form/Application_Form_1';
+
 
 function App() {
   return (
@@ -26,7 +28,8 @@ function App() {
             <Route path="/Contact" element={<ContactUs/>} />
             <Route path='/Blogs' element={<Blogs/>}/>
             <Route path='/Blogs_Details' element={<Blogs_Data/>}/>
-            <Route path="/Application_Form" element={<Travel_Reg_Form/>}/>
+            <Route path="/Application_Form" element={<Travel_Reg_Form1/>}/>
+          
 
         </Routes>
 
