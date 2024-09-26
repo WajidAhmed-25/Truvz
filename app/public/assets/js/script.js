@@ -486,7 +486,7 @@
         
         
         // ## Nice Select
-        $('select').niceSelect();
+        // $('select').niceSelect();
         
         
         // ## AOS Animation

@@ -10,7 +10,7 @@ const Feature_Area_Start = () => {
                     <div class="col-xl-6">
                         <div class="features-content-part mb-55" data-aos="fade-left" data-aos-duration="1500" data-aos-offset="50">
                             <div class="section-title mb-60">
-                                <h2>The Ultimate Travel Experience Features That Set Our Agency Apart</h2>
+                                <h2 className='work'>The Ultimate Travel Experience Features That Set Our Agency Apart</h2>
                             </div>
                             <div class="features-customer-box">
                                 <div class="image">

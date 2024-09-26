@@ -10,26 +10,26 @@ const About_Us_Area_Start = () => {
                     <div class="col-xl-5 col-lg-6">
                         <div class="about-us-content rmb-55" data-aos="fade-left" data-aos-duration="1500" data-aos-offset="50">
                             <div class="section-title mb-25">
-                                <h2>Travel with Confidence Top Reasons to Choose Our Agency</h2>
+                                <h2 className='work'>Travel with Confidence Top Reasons to Choose Our Agency</h2>
                             </div>
-                            <p>We go above and beyond to make your travel dreams reality hidden gems and must-see attractions</p>
+                            <p style={{color:'white'}}>We go above and beyond to make your travel dreams reality hidden gems and must-see attractions</p>
                             <div class="divider counter-text-wrap mt-45 mb-55"><span>We have <span><span class="count-text plus" data-speed="3000" data-stop="25">0</span> Years</span> of experience</span></div>
                             <div class="row">
                                 <div class="col-6">
                                     <div class="counter-item counter-text-wrap">
-                                        <span class="count-text k-plus" data-speed="3000" data-stop="3">0</span>
-                                        <span class="counter-title">Popular Destination</span>
+                                        <span class="count-text k-plus work" data-speed="3000" data-stop="3">0</span>
+                                        <span class="counter-title work work">Popular Destination</span>
                                     </div>
                                 </div>
                                 <div class="col-6">
                                     <div class="counter-item counter-text-wrap">
-                                        <span class="count-text m-plus" data-speed="3000" data-stop="9">0</span>
-                                        <span class="counter-title">Satisfied Clients</span>
+                                        <span class="count-text m-plus work" data-speed="3000" data-stop="9">0</span>
+                                        <span class="counter-title work">Satisfied Clients</span>
                                     </div>
                                 </div>
                             </div>
-                            <a href="/Destination" class="theme-btn mt-10 style-two">
-                                <span data-hover="Explore Destinations">Explore Destinations</span>
+                            <a href="/Destination" class="theme-btn mt-10 style-two ">
+                                <span data-hover="Explore Destinations work">Explore Destinations</span>
                                 <i class="fal fa-arrow-right"></i>
                             </a>
                         </div>

@@ -1,4 +1,5 @@
 import React from 'react'
+import Query from '../Popup_Query/Query'
 
 const Blogs = () => {
   return (
@@ -14,7 +15,7 @@ const Blogs = () => {
 
 
 
-<div class="form-back-drop"></div>
+{/* <div class="form-back-drop"></div>
 
 
 <section class="hidden-bar">
@@ -52,7 +53,9 @@ const Blogs = () => {
             <a href="#"><i class="fab fa-pinterest-p"></i></a>
         </div>
     </div>
-</section>
+</section> */}
+
+<Query/>
 
 <section class="page-banner-area pt-50 pb-35 rel z-1 bgs-cover" style={{backgroundImage:"url('https://toplistsites.com/wp-content/uploads/2023/06/best-travel-blogs.jpg')"}}>
     <div class="container">
@@ -172,15 +175,15 @@ const Blogs = () => {
        
                     
                     <div class="widget widget-news" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
-                        <h5 class="widget-title">Recent News</h5>
+                        <h5 class="widget-title work">Recent News</h5>
                         <ul>
                             <li>
                                 <div class="image">
                                     <img src="https://wallpaperaccess.com/full/4190081.jpg" alt="News"/>
                                 </div>
                                 <div class="content">
-                                    <h6><a href="/Blogs_Details">Unique Destinations an tolded Stories ways</a></h6>
-                                    <span class="date"><i class="far fa-calendar-alt"></i> 25 Feb 2024</span>
+                                    <h6><a href="/Blogs_Details" style={{color:'white'}}>Unique Destinations an tolded Stories ways</a></h6>
+                                    <span class="date work"><i class="far fa-calendar-alt"></i> 25 Feb 2024</span>
                                 </div>
                             </li>
                             <li>
@@ -188,8 +191,8 @@ const Blogs = () => {
                                     <img src="https://www.venuereport.com/media/cache/resolve/venue_roundup_single_image/uploads/+0Regular_Roundup/MayRoundUp/Greece_GypseaLust05.jpg" alt="News"/>
                                 </div>
                                 <div class="content">
-                                    <h6><a href="/Blogs_Details">Immersive Experiences from Around Globe</a></h6>
-                                    <span class="date"><i class="far fa-calendar-alt"></i> 25 Feb 2024</span>
+                                    <h6><a href="/Blogs_Details" style={{color:'white'}}>Immersive Experiences from Around Globe</a></h6>
+                                    <span class="date work"><i class="far fa-calendar-alt"></i> 25 Feb 2024</span>
                                 </div>
                             </li>
                             <li>
@@ -197,8 +200,8 @@ const Blogs = () => {
                                     <img src="https://media.cntraveler.com/photos/56556bab659c4b487486611e/master/pass/oia-santorini-greece-cr-alamy.jpg" alt="News"/>
                                 </div>
                                 <div class="content">
-                                    <h6><a href="/Blogs_Details">Journey to Inspire Your Next Adventure</a></h6>
-                                    <span class="date"><i class="far fa-calendar-alt"></i> 25 Feb 2024</span>
+                                    <h6><a href="/Blogs_Details" style={{color:'white'}}>Journey to Inspire Your Next Adventure</a></h6>
+                                    <span class="date work"><i class="far fa-calendar-alt"></i> 25 Feb 2024</span>
                                 </div>
                             </li>
                         </ul>

@@ -1,5 +1,6 @@
 import React from 'react'
 import myimg from './sdsa.png'
+import Query from '../Popup_Query/Query'
 
 const ContactUs = () => {
   return (
@@ -16,7 +17,7 @@ const ContactUs = () => {
 
 
 
-<div class="form-back-drop"></div>
+{/* <div class="form-back-drop"></div>
 
 
 <section class="hidden-bar">
@@ -54,7 +55,10 @@ const ContactUs = () => {
             <a href="#"><i class="fab fa-pinterest-p"></i></a>
         </div>
     </div>
-</section>
+</section> */}
+
+
+<Query/>
 
 <section class="page-banner-area pt-50 pb-35 rel z-1 bgs-cover" style={{backgroundImage: "url('http://www.rq8tech.com/wp-content/uploads/2020/04/contact-us-banner.jpeg')"}}>
     <div class="container">
@@ -76,9 +80,9 @@ const ContactUs = () => {
             <div class="col-lg-4">
                 <div class="contact-info-content mb-30 rmb-55" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
                     <div class="section-title mb-30">
-                        <h2>Let’s Talk Our Expert Travel Guides</h2>
+                        <h2 className='work'>Let’s Talk Our Expert Travel Guides</h2>
                     </div>
-                    <p>Our dedicated support team is always ready to assist you with any questions or issues, offering prompt and personalized solutions to meet your needs.</p>
+                    <p style={{color:'white'}}>Our dedicated support team is always ready to assist you with any questions or issues, offering prompt and personalized solutions to meet your needs.</p>
                     <div class="features-team-box mt-40">
                         <h6>85+ Expert Team member</h6>
                         <div class="feature-authors">
@@ -203,10 +207,10 @@ const ContactUs = () => {
                             <img src="https://static.vecteezy.com/system/resources/previews/020/676/307/original/have-any-questions-and-doubts-background-concept-design-with-many-question-marks-free-vector.jpg" alt="Contact"/>
                         </div>
                         <div class="col-6">
-                          <h1 style={{fontSize:'60px',color:'black'}}>Let <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Us </h1>
+                          <h1 style={{fontSize:'60px',color:'orange'}}>Let <br/>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Us </h1>
                         </div>
                         <div class="col-6">
-                        <h1 style={{fontSize:'60px',color:'black',marginLeft:'70px'}}>Know </h1>
+                        <h1 style={{fontSize:'60px',color:'orange',marginLeft:'70px'}}>Know </h1>
                         </div>
                     </div>
                     <div class="circle-logo">

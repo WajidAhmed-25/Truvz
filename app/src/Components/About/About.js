@@ -1,4 +1,5 @@
 import React from 'react'
+import Query from '../Popup_Query/Query'
 
 
 const About = () => {
@@ -19,7 +20,7 @@ const About = () => {
 
 
 
-<div className="form-back-drop"></div>
+{/* <div className="form-back-drop"></div>
 
 
 
@@ -59,9 +60,10 @@ const About = () => {
             <a href="#"><i className="fab fa-pinterest-p"></i></a>
         </div>
     </div>
-</section>
+</section> */}
 
 
+<Query/>
 
 <section className="page-banner-area pt-50 pb-35 rel z-1 bgs-cover" style={{backgroundSize:"cover",backgroundImage: "url('https://images.unsplash.com/photo-1496950866446-3253e1470e8e?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')"}}>
     <div className="container">
@@ -88,25 +90,25 @@ const About = () => {
                     <div className="row">
                         <div className="col-lg-8 pe-lg-5 me-lg-5">
                             <div className="section-title mb-25">
-                                <h2>Experience and Professional Tours & Travel Agency in the World</h2>
+                                <h2 className='work'>Experience and Professional Tours & Travel Agency in the World</h2>
                             </div>
                         </div>
                         <div className="col-md-4">
-                            <div className="experience-years rmb-20">
-                                <span className="title bgc-secondary">Years Of Experience</span>
-                                <span className="text">We have</span>
-                                <span className="years">28+</span>
+                            <div className="experience-years rmb-20 work">
+                                <span className="title bgc-secondary ">Years Of Experience</span>
+                                <span className="text work">We have</span>
+                                <span className="years work">28+</span>
                             </div>
                         </div>
                         <div className="col-md-8">
-                            <p>We specialize in crafting unforgettable city experiences for travelers seeking discover the heart and soul of urban landscapes. Our expertly guided tours take journey through vibrant streets, historic landmarks, and hidden gems of each city.</p>
+                            <p style={{color:'white'}}>We specialize in crafting unforgettable city experiences for travelers seeking discover the heart and soul of urban landscapes. Our expertly guided tours take journey through vibrant streets, historic landmarks, and hidden gems of each city.</p>
                             <ul className="list-style-two mt-35">
-                                <li>Experience Agency</li>
-                                <li>Professional Team</li>
-                                <li>Low Cost Travel</li>
-                                <li>Online Support 24/7</li>
+                                <li className='work'>Experience Agency</li>
+                                <li className='work'>Professional Team</li>
+                                <li className='work'>Low Cost Travel</li>
+                                <li className='work'>Online Support 24/7</li>
                             </ul>
-                            <a href="/AboutUs" className="theme-btn style-three mt-30">
+                            <a href="/AboutUs" style={{color:'orange'}} className="theme-btn  style-three mt-30">
                                 <span data-hover="Explore Tours">Explore Tours</span>
                                 <i className="fal fa-arrow-right"></i>
                             </a>
@@ -163,20 +165,20 @@ const About = () => {
             <div className="col-xl-5 col-lg-6">
                 <div className="about-us-content rmb-55" data-aos="fade-left" data-aos-duration="1500" data-aos-offset="50">
                     <div className="section-title mb-25">
-                        <h2>Travel with Confidence Top Reasons to Choose Our Agency</h2>
+                        <h2 className='work'>Travel with Confidence Top Reasons to Choose Our Agency</h2>
                     </div>
-                    <p>We work closely with our clients to understand challenges and objectives, providing customized solutions to enhance efficiency boost profitability, and foster sustainable growth.</p>
+                    <p style={{color:'white'}}>We work closely with our clients to understand challenges and objectives, providing customized solutions to enhance efficiency boost profitability, and foster sustainable growth.</p>
                     <div className="row pt-25">
                         <div className="col-6">
                             <div className="counter-item counter-text-wrap">
-                                <span className="count-text k-plus" data-speed="3000" data-stop="3">0</span>
-                                <span className="counter-title">Popular Destination</span>
+                                <span className="count-text k-plus work" data-speed="3000" data-stop="3">0</span>
+                                <span className="counter-title work">Popular Destination</span>
                             </div>
                         </div>
                         <div className="col-6">
                             <div className="counter-item counter-text-wrap">
-                                <span className="count-text m-plus" data-speed="3000" data-stop="9">0</span>
-                                <span className="counter-title">Satisfied Clients</span>
+                                <span className="count-text m-plus work" data-speed="3000" data-stop="9">0</span>
+                                <span className="counter-title work">Satisfied Clients</span>
                             </div>
                         </div>
                     </div>
@@ -200,8 +202,8 @@ const About = () => {
         <div className="row justify-content-center">
             <div className="col-lg-12">
                 <div className="section-title text-center counter-text-wrap mb-50" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
-                    <h2>Meet Our Experience Travel Guides</h2>
-                    <p>One site <span className="count-text plus bgc-primary" data-speed="3000" data-stop="34500">0</span> most popular experience you’ll remember</p>
+                    <h2 className='work'>Meet Our Experience Travel Guides</h2>
+                    <p style={{color:'white'}}>One site <span className="count-text plus bgc-primary" data-speed="3000" data-stop="34500">0</span> most popular experience you’ll remember</p>
                 </div>
             </div>
         </div>
@@ -372,13 +374,13 @@ const About = () => {
             <div className="col-lg-6">
                 <div className="testimonial-right-content" data-aos="fade-left" data-aos-duration="1500" data-aos-offset="50">
                     <div className="section-title mb-55">
-                        <h2><span>5280</span>  Global Clients Say About Us Services</h2>
+                        <h2 className='work'><span>5280</span>  Global Clients Say About Us Services</h2>
                     </div>
                     <div className="testimonials-active">
                         <div className="testimonial-item">
                             <div className="testi-header">
                                 <div className="quote"><i className="flaticon-double-quotes"></i></div>
-                                <h4>Quality Services</h4>
+                                <h4 className='work'>Quality Services</h4>
                                 <div className="ratting">
                                     <i className="fas fa-star"></i>
                                     <i className="fas fa-star"></i>
@@ -387,12 +389,12 @@ const About = () => {
                                     <i className="fas fa-star"></i>
                                 </div>
                             </div>
-                            <div className="text">"Our trip was absolutely a perfect, thanks this travel agency! They took care of every detail, from to accommodations, and even suggested incredible experiences"</div>
+                            <div className="text" style={{color:'white'}}>"Our trip was absolutely a perfect, thanks this travel agency! They took care of every detail, from to accommodations, and even suggested incredible experiences"</div>
                             <div className="author">
                                 <div className="image"><img src="https://png.pngtree.com/png-clipart/20220909/original/pngtree-women-cartoon-avatar-in-flat-style-png-image_8515458.png" alt="Author"/></div>
                                 <div className="content">
-                                    <h5>Randall V. Vasquez</h5>
-                                    <span>Graphics Designer</span>
+                                    <h5 className='work'>Randall V. Vasquez</h5>
+                                    <span className='work'>Graphics Designer</span>
                                 </div>
                             </div>
                         </div>

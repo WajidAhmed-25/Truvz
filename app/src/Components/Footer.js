@@ -29,7 +29,7 @@ const Footer = () => {
                                 <h2>Subscribe Newsletter</h2>
                                 <p>One site <span class="count-text plus" data-speed="3000" data-stop="34500">0</span> most popular experience you’ll remember</p>
                             </div>
-                            <form class="newsletter-form mb-50" action="#">
+                            <form class="newsletter-form back_inp mb-50" action="#" style={{backgroundColor:'#1d221d'}}>
                                 <input id="news-email" type="email" placeholder="Email Address" required/>
                                 <button type="submit" class="theme-btn bgc-secondary style-two">
                                     <span data-hover="Subscribe">Subscribe</span>

@@ -1,5 +1,6 @@
 import React from 'react'
 import Letter from '../Newsletter/Letter'
+import Query from '../Popup_Query/Query'
 
 const FAQs = () => {
   return (
@@ -16,7 +17,7 @@ const FAQs = () => {
 
 
 
-<div class="form-back-drop"></div>
+{/* <div class="form-back-drop"></div>
 
 
 <section class="hidden-bar">
@@ -55,7 +56,10 @@ const FAQs = () => {
             <a href="#"><i class="fab fa-pinterest-p"></i></a>
         </div>
     </div>
-</section>
+</section> */}
+
+
+<Query/>
 
 <section class="page-banner-area pt-50 pb-35 rel z-1 bgs-cover" style={{backgroundImage: "url('https://images.pexels.com/photos/11022636/pexels-photo-11022636.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1')"}}>
     <div class="container">
@@ -118,8 +122,8 @@ const FAQs = () => {
         <div class="row justify-content-center">
             <div class="col-xl-10">
                 <div class="section-title text-center counter-text-wrap mb-50" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
-                    <h2>Frequently Asked Questions</h2>
-                    <p>One site <span class="count-text plus" data-speed="3000" data-stop="34500">0</span> most popular experience you’ll remember</p>
+                    <h2 className='work'>Frequently Asked Questions</h2>
+                    <p style={{color:'white'}}>One site <span class="count-text plus" data-speed="3000" data-stop="34500">0</span> most popular experience you’ll remember</p>
                 </div>
                 <div class="accordion-one" id="faq-accordion">
                     <div class="accordion-item" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">

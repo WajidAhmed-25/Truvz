@@ -9,12 +9,13 @@ import Mobile_Area_Start from './Homepage/Mobile_Area_Start';
 import Testimonial_Area_Start from './Homepage/Testimonial_Area_Start';
 import CTA_Area_Start from './Homepage/CTA_Area_Start';
 import Blog_Area from './Homepage/Blog_Area';
+import Query from './Popup_Query/Query';
 
 const HomePage = () => {
   return (
     <div>
       
-      <div className="form-back-drop"></div>
+      {/* <div className="form-back-drop"></div>
 
 
       <section className="hidden-bar">
@@ -53,7 +54,9 @@ const HomePage = () => {
             <a href="#"><i className="fab fa-pinterest-p"></i></a>
         </div>
     </div>
-</section>
+</section> */}
+
+<Query/>
 
 
       <Hero_Section/>

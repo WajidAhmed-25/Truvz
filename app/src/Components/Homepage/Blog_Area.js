@@ -9,8 +9,8 @@ const Blog_Area = () => {
                 <div class="row justify-content-center">
                     <div class="col-lg-12">
                         <div class="section-title text-center counter-text-wrap mb-70" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
-                            <h2>Read Latest News & Blog</h2>
-                            <p>One site <span class="count-text plus bgc-primary" data-speed="3000" data-stop="34500">0</span> most popular experience you’ll remember</p>
+                            <h2 className='work'>Read Latest News & Blog</h2>
+                            <p style={{color:'white'}}>One site <span class="count-text plus bgc-primary" data-speed="3000" data-stop="34500">0</span> most popular experience you’ll remember</p>
                         </div>
                     </div>
                 </div>

@@ -41,6 +41,8 @@ export default function Header(){
                                         </li>
                                         <li><a href="/AboutUs">About</a></li>
 
+                                        <li><a href="/Application_Form">Apply Now</a></li>
+
                                         <li><a href="/Destination">Destinations</a></li>
                                 
                        

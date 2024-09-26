@@ -1,5 +1,6 @@
 import React from 'react'
 import Letter from '../Newsletter/Letter'
+import Query from '../Popup_Query/Query'
 
 
 
@@ -13,7 +14,7 @@ const Destination = () => {
   <div class="">
 
 
-<div class="preloader"></div>
+{/* <div class="preloader"></div>
 
 
 
@@ -58,7 +59,10 @@ const Destination = () => {
             <a href="#"><i class="fab fa-pinterest-p"></i></a>
         </div>
     </div>
-</section>
+</section> */}
+
+
+<Query/>
 
 <section class="page-banner-area pt-50 pb-35 rel z-1 bgs-cover" style={{backgroundImage: "url('https://images.unsplash.com/photo-1497302347632-904729bc24aa?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D')"}}>
     <div class="container">
@@ -80,8 +84,8 @@ const Destination = () => {
         <div class="row justify-content-center">
             <div class="col-lg-12">
                 <div class="section-title text-center counter-text-wrap mb-50" data-aos="fade-up" data-aos-duration="1500" data-aos-offset="50">
-                    <h2>Explore Our Popular Destinations</h2>
-                    <p>One site <span class="count-text plus" data-speed="3000" data-stop="34500">0</span> most popular experience you’ll remember</p>
+                    <h2 className='work'>Explore Our Popular Destinations</h2>
+                    <p style={{color:'white'}}>One site <span class="count-text plus" data-speed="3000" data-stop="34500">0</span> most popular experience you’ll remember</p>
                 </div>
             </div>
         </div>
