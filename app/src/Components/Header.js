@@ -21,7 +21,7 @@ export default function Header(){
                                 <div class="navbar-header">
                                    <div class="mobile-logo">
                                        <a href="/">
-                                            <img src="assets/images/logos/logo.png" alt="Logo" title="Logo"/>
+                                       <a href="/" style={{ fontSize: '20px',marginLeft:'8px',fontWeight:'600', color: 'white' }}>Truvz.Com</a>
                                        </a>
                                    </div>
                                    
