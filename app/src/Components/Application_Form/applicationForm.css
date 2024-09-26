@@ -73,6 +73,10 @@ width: 45% !important;
 .world{
   gap: 10px;
 }
+
+.application-container{
+  width: 88% !important; 
+}
 }
 
 
