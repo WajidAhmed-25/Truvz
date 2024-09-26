@@ -23,16 +23,135 @@
     }
     
   }
-  
-  .form-container {
-    max-width: 55rem;
+
+  @media (min-width: 340px) and (max-width: 440px) {
+
+    .header h2 {
+        font-size: 2.90rem; 
+        padding-bottom: 20px;
+      }
+
+    .application-container {
+        width: 87%;
+    }
+
+    .form-container{
+        padding: 1.5rem;
+ 
+    background-color: #232c27; 
+    border-radius: 0.5rem; 
+    box-shadow: 0 4px 6px rgba(170, 89, 8, 0.86);
+    margin-bottom: 90px;
+    }
+
+}
+
+
+
+
+@media (min-width: 440px) and (max-width: 740px) {
+
+    .header h2 {
+        font-size: 2.90rem; 
+        padding-bottom: 20px;
+      }
+
+    .application-container {
+        width: 87%;
+    }
+
+    .form-container{
+        padding: 1.5rem;
+ 
+    background-color: #232c27; 
+    border-radius: 0.5rem; 
+    box-shadow: 0 4px 6px rgba(170, 89, 8, 0.86);
+    margin-bottom: 90px;
+    }
+
+}
+
+
+@media (min-width: 740px) and (max-width: 980px) {
+
+    .header h2 {
+        font-size: 2.90rem; 
+        padding-bottom: 20px;
+      }
+
+    .application-container {
+        width: 80%;
+    }
+
+    .form-container{
+        padding: 1.5rem;
+ 
+    background-color: #232c27; 
+    border-radius: 0.5rem; 
+    box-shadow: 0 4px 6px rgba(170, 89, 8, 0.86);
+    margin-bottom: 90px;
+    }
+
+}
+
+
+
+@media (min-width: 980px) and (max-width: 1200px) {
+
+    .header h2 {
+        font-size: 3.90rem; 
+        padding-bottom: 20px;
+      }
+
+    .application-container {
+        width: 70%;
+    }
+
+    .form-container{
+        padding: 1.5rem;
+ 
+    background-color: #232c27; 
+    border-radius: 0.5rem; 
+    box-shadow: 0 4px 6px rgba(170, 89, 8, 0.86);
+    margin-bottom: 90px;
+    }
+
+}
+
+
+
+@media (min-width: 1200px)  {
+
+    .header h2 {
+        font-size: 3.90rem; 
+        padding-bottom: 20px;
+      }
+
+    .application-container {
+        width: 60%;
+    }
+
+    .form-container{
+        padding: 1.5rem;
+ 
+    background-color: #232c27; 
+    border-radius: 0.5rem; 
+    box-shadow: 0 4px 6px rgba(170, 89, 8, 0.86);
+    margin-bottom: 90px;
+    }
+
+}
+
+
+/* .form-container {
+   max-width: 50rem; 
     padding: 1.5rem;
     margin: 4rem auto 6rem 3rem;
-    background-color: #232c27; /* gray-100 */
-    border-radius: 0.5rem; /* rounded-lg */
-    box-shadow: 0 4px 6px rgba(170, 89, 8, 0.86); /* shadow-md */
- 
-  }
+    background-color: #232c27; 
+    border-radius: 0.5rem; 
+    box-shadow: 0 4px 6px rgba(170, 89, 8, 0.86);
+} */
+
 
 .btn_arrange{
     display: flex;
