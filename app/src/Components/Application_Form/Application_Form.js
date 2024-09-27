@@ -1346,7 +1346,7 @@ const Travel_Reg_Form = () => {
 
     try {
       // POST request to the Laravel API
-      const response = await axios.post('http://127.0.0.1:8000/api/visa-applications', formData);
+      const response = await axios.post('https://trv.devcir.co/api/visa-applications', formData);
 
       // Handle success response
       console.log('Form submitted successfully:', response.data);

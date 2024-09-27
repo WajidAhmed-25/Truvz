@@ -34,7 +34,7 @@
 //     }
   
 //     try {
-//       const sendDetailsResponse = await fetch('http://127.0.0.1:8000/api/send-user-details', {
+//       const sendDetailsResponse = await fetch('https://trv.devcir.co/api/send-user-details', {
 //         method: 'POST',
 //         headers: {
 //           'Content-Type': 'application/json',
@@ -215,7 +215,7 @@ const Query = () => {
 
     try {
       // Submit form data
-      const sendDetailsResponse = await fetch('http://127.0.0.1:8000/api/send-user-details', {
+      const sendDetailsResponse = await fetch('https://trv.devcir.co/api/send-user-details', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',

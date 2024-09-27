@@ -2250,7 +2250,7 @@ const Travel_Reg_Form1 = () => {
     console.log(`Data to be sent: `, formData);
 
     try {
-      const response = await fetch('http://127.0.0.1:8000/api/personal-information', {
+      const response = await fetch('https://trv.devcir.co/api/personal-information', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
