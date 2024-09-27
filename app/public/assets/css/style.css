@@ -3281,13 +3281,14 @@ h6, .h6, blockquote {
 
 
 
-
+/* Ahsan */
 
 @media only screen and (max-width: 600px) {
   .header-inner {
     height: 60px;
     padding: 10px 0;
 }
+
 .navbar-toggle{
   position: absolute;
   right: 0px;
@@ -3300,14 +3301,19 @@ h6, .h6, blockquote {
   padding-right: 0 !important;
   padding-left: 0 !important;
 }
+
+
+
 }
 @media only screen and (max-width: 767px) {
   .header-inner {
       flex-direction: row;
   }
+
   .menu-sidebar {
       order: 3;
   }
+
 
   .navbar-header {
       order: 1;
