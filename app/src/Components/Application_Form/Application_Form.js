@@ -228,7 +228,7 @@ const MaritalStatus = ({ maritalStatus, setMaritalStatus, onMaritalStatusChange 
                     <option key={i} value={i + 1}>{i + 1}</option>
                   ))}
                 </select>
-                <div className="p-4 mt-4">
+                <div className=" mt-4 austin">
                   {Array.from({ length: maritalStatus.numberOfChildren }).map((_, index) => (
                     <div key={index} className="p-6 mb-8 back_div rounded-lg shadow-lg main-work">
                       <h4 className="mb-6 text-lg font-semibold underline underline-offset-4 work">Child {index + 1} Details</h4>
