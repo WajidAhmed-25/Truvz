@@ -14,8 +14,16 @@ import Travel_Reg_Form from './Components/Application_Form/Application_Form';
 import Travel_Reg_Form1 from './Components/Application_Form/Application_Form_1';
 import { useEffect} from 'react';
 import 'aos/dist/aos.css';  
-
 import AOS from 'aos';
+
+import Canada from '../src/Components/Countries/Canada';
+import Australia from './Components/Countries/Australia';
+import USA from './Components/Countries/USA';
+import U from './Components/Countries/Uk';
+import Schengen_Visa from './Components/Countries/Schengen';
+import Turkey_Visa from './Components/Countries/Turkey';
+import UK from './Components/Countries/Uk';
+import Student_Form from './Components/Student_Form/Student_Form';
 
 
 function App() {
@@ -45,6 +53,15 @@ function App() {
             <Route path='/Blogs' element={<Blogs/>}/>
             <Route path='/Blogs_Details' element={<Blogs_Data/>}/>
             <Route path="/Application_Form" element={<Travel_Reg_Form1/>}/>
+            <Route path='/Student_Form'  element={<Student_Form/>}/>
+
+
+            <Route path="/Canada_visa" element={<Canada/>} />
+          <Route path="/Uk_visa" element={<UK/>} />
+          <Route path="/Australia_visa" element={<Australia/>} />
+          <Route path="/USA_visa" element={<USA/>} />
+          <Route path="/Turkey_visa" element={<Turkey_Visa/>} />
+          <Route path="/Shengen_visa" element={<Schengen_Visa/>} />
           
 
         </Routes>

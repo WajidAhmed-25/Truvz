@@ -4686,7 +4686,7 @@ h6, .h6, blockquote {
     margin-bottom: 10px;
     border: 1px solid var(--border-color); }
     .destination-item.style-two .image {
-      display: inline-block; }
+      /* display: inline-block; } */}
       .destination-item.style-two .image .heart {
         width: 30px;
         height: 30px;

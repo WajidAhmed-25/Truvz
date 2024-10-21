@@ -182,7 +182,16 @@ export default function Header(){
                             <ul class="navigation clearfix">
                                 <li><a href="/">Home</a></li>
                                 <li><a href="/AboutUs">About</a></li>
-                                <li><a href="/Application_Form">Apply Now</a></li>
+                            
+                            
+                                <li class="dropdown"><a href="#">Apply Now</a>
+                                    <ul>
+                                        <li><a href="/Application_Form">Apply Now</a></li>
+                                        <li><a href="/Student_Form">Student Visa</a></li>
+                                    </ul>
+                                </li>
+
+
                                 <li><a href="/Destination">Destinations</a></li>
                                 <li class="dropdown"><a href="#">Pages</a>
                                     <ul>

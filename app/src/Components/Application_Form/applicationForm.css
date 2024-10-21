@@ -39,7 +39,7 @@
     .form-container{
         padding: 1.5rem;
  
-    background-color: #232c27; 
+    background-color: white !important; 
     border-radius: 0.5rem; 
     box-shadow: 0 4px 6px rgba(170, 89, 8, 0.86);
     margin-bottom: 90px;
@@ -51,10 +51,16 @@
 
 @media (min-width: 310px) and (max-width: 440px) {
 
+  .form-container{
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+  }
+
  .res_data{
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 80%;
  }
  .btn_arrange{
 
@@ -75,7 +81,7 @@ width: 45% !important;
 }
 
 .application-container{
-  width: 100% !important; 
+  width: 80% !important; 
 }
 }
 
@@ -95,7 +101,7 @@ width: 45% !important;
     .form-container{
         padding: 1.5rem;
  
-    background-color: #232c27; 
+    background-color: white; 
     border-radius: 0.5rem; 
     box-shadow: 0 4px 6px rgba(170, 89, 8, 0.86);
     margin-bottom: 90px;
@@ -118,7 +124,7 @@ width: 45% !important;
     .form-container{
         padding: 1.5rem;
  
-    background-color: #232c27; 
+    background-color: white; 
     border-radius: 0.5rem; 
     box-shadow: 0 4px 6px rgba(170, 89, 8, 0.86);
     margin-bottom: 90px;
@@ -142,7 +148,7 @@ width: 45% !important;
     .form-container{
         padding: 1.5rem;
  
-    background-color: #232c27; 
+    background-color: white; 
     border-radius: 0.5rem; 
     box-shadow: 0 4px 6px rgba(170, 89, 8, 0.86);
     margin-bottom: 90px;
@@ -160,13 +166,13 @@ width: 45% !important;
       }
 
     .application-container {
-        width: 60%;
+        width: 40%;
     }
 
     .form-container{
         padding: 1.5rem;
  
-    background-color: #232c27; 
+    background-color: white; 
     border-radius: 0.5rem; 
     box-shadow: 0 4px 6px rgba(170, 89, 8, 0.86);
     margin-bottom: 90px;
@@ -310,7 +316,7 @@ width: 45% !important;
   }
 
   .work{
-    color: #f7921e !important;
+    color: #ee8812 !important;
   }
 
   .heading{
@@ -384,9 +390,9 @@ width: 45% !important;
   
 
   label{
-    color: #f7921e; 
+    color: #000000ad ; 
     font-weight: 500;
-    margin-top: 10px;
+    margin-top: 15px;
   }
 
   .work1{
@@ -419,13 +425,15 @@ width: 45% !important;
   }
   input[type="date"] { 
     
-    color: #f7921e;
+    color:  #00000087   ;
+    background-color: white;
     border: 1px solid rgba(128, 128, 128, 0.299) !important;
   }
 
   input[type="text"] { 
     
-    color: #f7921e;
+    color:  #00000087   ;
+    background-color: white;
     border: 1px solid rgba(128, 128, 128, 0.299) !important;
   }
 
@@ -434,8 +442,9 @@ width: 45% !important;
 
  textarea { 
     
-    color: #f7921e;
-    border: 1px solid rgba(128, 128, 128, 0.299) !important;
+  color:  #00000087   ;
+  background-color: white;
+  border: 1px solid rgba(128, 128, 128, 0.299) !important;
   }
 
 
@@ -447,8 +456,8 @@ width: 45% !important;
 
 
   .inputz{
-    background-color: #232c27;
-    color: #f7921e;
+    color:  #00000087   ;
+    background-color: white;
     border: 1px solid rgba(128, 128, 128, 0.299) !important;
   }
 
@@ -458,7 +467,7 @@ width: 45% !important;
     border: 1px solid rgba(128, 128, 128, 0.299) !important;
   } */
   option{
-    background-color: #232c27;
+    background-color: white;
     color: #f7921e;
     border: 1px solid rgba(128, 128, 128, 0.299) !important;
   }
@@ -558,9 +567,9 @@ width: 45% !important;
     border: 2px solid #f7921e;
   }
   
-  .submit-button {
-    background-color: #16a34a; /* green-600 */
-  }
+  /* .submit-button {
+    background-color: #16a34a;
+  } */
   
   .submit-button:hover {
     background-color: #065f46; /* green-800 */

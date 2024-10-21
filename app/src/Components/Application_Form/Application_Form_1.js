@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import Query from "../Popup_Query/Query";
+import './applicationForm.css'
 
 import { MapPin } from "lucide-react";
 const PersonalInformation = ({ data, setData }) => {
@@ -2168,6 +2169,7 @@ const AdditionalInformation = ({ data, setData }) => {
 };
 
 const Travel_Reg_Form1 = () => {
+
   const [step, setStep] = useState(1);
   const [personalInfo, setPersonalInfo] = useState({});
   const [maritalStatus, setMaritalStatus] = useState({});

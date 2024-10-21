@@ -1,0 +1,173 @@
+/* Header Section */
+.header-container {
+    width: 100%;
+    margin-top: 140px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.my_feature_name{
+    color:#605f5e;
+}
+
+.visa-title {
+    font-size: 2.5rem; /* Responsive font size */
+    font-weight: bold;
+    color:#f58d03;
+    line-height: 1.1;
+}
+
+.divider {
+    width: 100%; /* Set to full width */
+    max-width: 500px; /* Add max-width to control */
+    height: 5px;
+    margin: 24px auto;
+    background-color: #f58d03;
+}
+
+/* Grid Layout for Cards */
+.pricing-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* Responsive grid */
+    gap: 50px;
+    padding: 64px 34px; /* Reduced padding for smaller screens */
+    list-style: none;
+    margin: 0;
+}
+
+@media (min-width: 1024px) { /* For screens larger than 1024px */
+    .pricing-grid {
+        grid-template-columns: repeat(3, 1fr); /* 3 cards on big screens */
+    }
+}
+
+/* Individual Card Styling */
+.pricing-card {
+    padding: 24px;
+    /* background-color: rgb(255, 255, 255); */
+    /* background-color: rgba(0, 0, 0, 0.207); */
+    background-color: white;
+    /* box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.1); */
+    
+      box-shadow: 0px 2px 12px #f58c03be;
+    border-radius: 12px;
+    transition: transform 0.2s ease-in-out;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.pricing-card:hover {
+    transform: scale(1.05);
+}
+
+.card-header {
+    padding: 10px;
+    background-color: #f58d03;
+    border-radius: 40%;
+    text-align: center;
+
+}
+
+.card-header h3 {
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0;
+}
+
+/* Price, Description, and Features */
+.price {
+    font-size: 2rem;
+    font-weight: bold;
+    color: #f58d03;
+    margin-top: 24px;
+    text-align: center; /* Center the price */
+}
+
+.description {
+    font-weight: 600;
+    color: #605f5e;
+    margin-top: 16px;
+    text-align: center; /* Center the description */
+}
+
+.features-list {
+    margin-top: 16px;
+    padding: 0;
+    list-style: none;
+}
+
+.myfeature-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 600;
+    color: #007fac;
+}
+
+.feature-icon {
+    width: 20px;
+    height: 20px;
+    color: #605f5e;
+    flex-shrink: 0;
+}
+
+/* Apply Button */
+.apply-container {
+    display: flex;
+    justify-content: center;
+}
+
+.apply-button {
+    margin-top: 44px;
+    padding: 12px 24px;
+    background-color: #f58d03;
+    color: white;
+    border-radius: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    text-align: center;
+    text-decoration: none;
+    box-shadow: 0px 4px 10px rgba(245, 141, 3, 0.4);
+    transition: transform 0.2s ease-in-out;
+}
+
+.apply-button:hover {
+    transform: scale(1.02);
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .pricing-card {
+        padding: 16px;
+    }
+    
+    .price {
+        font-size: 1.8rem;
+    }
+    
+    .visa-title {
+        font-size: 2rem;
+    }
+    
+    .pricing-grid {
+        padding: 32px 8px; /* Reduce padding for mobile */
+    }
+}
+
+@media (max-width: 480px) {
+    .price {
+        font-size: 1.6rem;
+    }
+    
+    .visa-title {
+        font-size: 1.8rem;
+    }
+    
+    .apply-button {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+}
