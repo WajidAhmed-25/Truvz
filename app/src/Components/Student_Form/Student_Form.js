@@ -802,7 +802,7 @@ const Student_Form = () => {
              </select>
              <label>When was your last level of education completed?</label>
            
-             <div className="date-select form-group">
+             <div className="date-select form-group two_div2">
            
                <select className='cus_month'>
                <option value="" disabled selected>Select Month</option>
@@ -1031,7 +1031,7 @@ const Student_Form = () => {
                 <div className="form-group">
                   <label>When would you like to start your studies in Canada?</label>
                 
-                  <div className="two_div">
+                  <div className="two_div2">
                  
                     <select className='cus_month split'>
                     <option value="" disabled selected>Select Month</option>

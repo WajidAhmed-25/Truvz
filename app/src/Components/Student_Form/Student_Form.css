@@ -351,6 +351,10 @@ button[type="submit"]:hover {
   padding: 10px;
 }
 
+.two_div2{
+  gap: 10px;display: flex;
+}
+
 
 
 @media (max-width: 768px) {
@@ -434,7 +438,12 @@ button[type="submit"]:hover {
     width: 40%;
   } */
 
-  .two_div{flex-direction: row;}
+  .two_div2{flex-direction: row;
+  display:inline-flex;
+ gap: 6px;
+ width: 90%;
+
+}
 }
 
 
