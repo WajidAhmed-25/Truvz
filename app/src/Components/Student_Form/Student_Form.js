@@ -1330,7 +1330,8 @@ const Student_Form = () => {
 </div>
 
 
-          <div className="submit-button">
+          <div className="st_submit-button">
+            
             <button type="submit">Submit Form</button>
           </div>
         </div>

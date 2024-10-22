@@ -260,14 +260,8 @@ button[type="button"]:hover {
   font-weight: 400;
   border: 2px solid #f7921ea8;
 }
-.submit-button{
-  margin-top: 20px;
-  background-color: none;
-}
-.student_submit-button {
-  text-align: center;
-  margin-top: 20px;
-}
+
+
 .heading_sub{
   color: #F7921E;
 }
@@ -323,6 +317,17 @@ button[type="submit"]:hover {
 }
 
 
+.st_submit-button { 
+  margin-top: 30px;
+  background-color: #f9f9f9;
+}
+
+.st_submit-button button:hover{ 
+  background-color: #f7921eb2;
+}
+
+
+
 
 .two_div{
   display: flex;
@@ -355,7 +360,9 @@ button[type="submit"]:hover {
   gap: 10px;display: flex;
 }
 
-
+.my_sbtm:hover{
+  background-color: none;
+}
 
 @media (max-width: 768px) {
   .form-container_student {
@@ -378,6 +385,7 @@ button[type="submit"]:hover {
     align-items: normal;
   }
 
+
   .form-group, 
   .input_field,
   .iinput_,
@@ -399,14 +407,6 @@ button[type="submit"]:hover {
     width: 90% !important;
   }
 
-  .submit-button {
-    width: 90%;
-    margin: 20px auto;
-  }
-
-  .student_submit-button {
-    width: 90%;
-  }
 
   .truvz_test-scores {
     width: 100%;
